@@ -1,6 +1,6 @@
 Hi, reader!
 
-Please run (assuming you got *node* and *npm* installed)
+Please run (assuming you got *node* and *npm* installed (https://nodejs.org/en/))
 
 `npm i` to install dependencies
 
