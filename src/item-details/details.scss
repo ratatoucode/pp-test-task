@@ -1,0 +1,31 @@
+.main-container {
+  display: flex;
+  .profile-details {
+    flex: 1;
+    .inner-data {
+      background: ghostwhite;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      -webkit-margin-start: 0;
+      -webkit-margin-end: 0;
+      -webkit-padding-start: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+
+      background: ghostwhite;
+      padding: 2rem;
+      height: 30vh;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        .inner-data-title {
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}

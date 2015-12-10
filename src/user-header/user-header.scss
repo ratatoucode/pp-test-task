@@ -1,0 +1,28 @@
+header {
+
+  background: rgba(52, 52, 52, 1) url("https://assets.pipedrive.com/images/logo-full-white-optimized.svg") 12px 1.2rem no-repeat;
+  background-size: 106px 24px;
+  color: ghostwhite;
+  .user-info {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    .user-profile {
+      display: flex;
+      padding: 0.5rem;
+    }
+    .user-data {
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+      justify-content: space-around;
+      padding: 0.4rem;
+      .user-company {
+        color: darkgray;
+      }
+    }
+    img {
+      height: 2.5rem;
+    }
+  }
+}

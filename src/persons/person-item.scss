@@ -1,0 +1,14 @@
+.person-item {
+  color: black;
+  margin-bottom: 0.1rem;
+  background: rgba(250, 250, 250, 1);
+  cursor: pointer;
+  .person-name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+li.active-person {
+  background: rgba(49, 140, 209, 1);
+}

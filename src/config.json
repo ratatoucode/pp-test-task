@@ -1,0 +1,6 @@
+{
+  "pipedrive": {
+    "root_path": "https://api.pipedrive.com/v1/",
+    "api_key": "7cbc18aa6768877d30c74247727e067c3389412c"
+  }
+}

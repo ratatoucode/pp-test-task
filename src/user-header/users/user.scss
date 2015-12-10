@@ -1,0 +1,36 @@
+.user-list {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: darkgrey;
+  li {
+    padding: 1rem 0;
+    div.person-data {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+.workspace {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  .left-sidebar {
+    flex: 1;
+    flex-shrink: 0;
+    background: ghostwhite;
+    border-right: 1px solid darkgrey;
+  }
+  .main-container {
+    background: rgba(233, 233, 233, 1);
+    flex: 4;
+    padding: 1rem;
+  }
+}
